@@ -1,7 +1,7 @@
 name = "ModelingToolkit"
 uuid = "961ee093-0014-501f-94e3-6117800e7a78"
-authors = ["Yingbo Ma <mayingbo5@gmail.com>", "Chris Rackauckas <accounts@chrisrackauckas.com> and contributors"]
 version = "9.65.0"
+authors = ["Yingbo Ma <mayingbo5@gmail.com>", "Chris Rackauckas <accounts@chrisrackauckas.com> and contributors"]
 
 [deps]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
@@ -147,7 +147,7 @@ StochasticDelayDiffEq = "1.8.1"
 StochasticDiffEq = "6.72.1"
 SymbolicIndexingInterface = "0.3.37"
 SymbolicUtils = "3.14"
-Symbolics = "6.29.1"
+Symbolics = "6.29.1, 7"
 URIs = "1"
 UnPack = "0.1, 1.0"
 Unitful = "1.1"
@@ -156,8 +156,8 @@ julia = "1.9"
 [extras]
 AmplNLWriter = "7c4d4715-977e-5154-bfe0-e096adeac482"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-BoundaryValueDiffEqMIRK = "1a22d4ce-7765-49ea-b6f2-13c8438986a6"
 BoundaryValueDiffEqAscher = "7227322d-7511-4e07-9247-ad6ff830280e"
+BoundaryValueDiffEqMIRK = "1a22d4ce-7765-49ea-b6f2-13c8438986a6"
 ControlSystemsBase = "aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 DeepDiffs = "ab62b9b5-e342-54a8-a765-a90f495de1a6"
